@@ -8,4 +8,5 @@ execl(
     arg0,
     arg0,
     PurePath(sep) / "bin" / "broadwayd",
+    ":0",
 )
